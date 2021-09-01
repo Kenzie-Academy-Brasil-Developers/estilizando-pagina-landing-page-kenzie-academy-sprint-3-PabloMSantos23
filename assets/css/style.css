@@ -29,27 +29,36 @@ family=Lato -> Títulos, textos
 /* FONTS */
 
 /* VARIÁVEIS */
-:root{}
+:root{
+--cor-header:#00043e;
+--cor-footer:#818181;
+--cor-letras:#FFFFFF;
+}
   
 /* GERAL */
-html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
+html, 
+
+ div, input, textarea, 
+
+p{
+ }
+ , h1, h2, h3, h4, h5, h6, 
+
+ul{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     list-style: none;
+    text-decoration: initial ;
 }
-img{
-    max-width: 800px;
-}
-div.flex{
-    display: flex;
-}
+
 div.full-container{
     width: 100%;
     max-width: 1850px;
     margin:0 auto;
 }
+
 div.large-container{
     width: 100%;
     max-width: 1170px;
@@ -67,15 +76,91 @@ html{}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+
+}
 /* BODY */
   
 /* HEADER */
-header{}
+header{
+    display: flex;
+    background-color: var(--cor-header);
+
+}
+
+#logo-KA{
+    max-width: 50px;
+    float: left;
+    padding-left: 200px;
+}
+
+nav {
+    display:flex;
+    justify-content: center; 
+}
+
+
+
+nav li {
+    display:inline ;
+    text-align: center;  
+    position: relative; 
+    text-align: center;
+}
+
+figcaption{
+    display: none;
+}
+
+.secaoDestaque{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:var(--cor-letras);
+    text-align: center;
+    background-image: url(file:///home/pablo/estilizando-pagina-landing-page-kenzie-academy-sprint-3-PabloMSantos23/assets/css/background-destaque.webp) ;
+    background-size: cover;
+    height: 400px
+}
+
+#python1{
+    max-width: 400px;
+    float: right;
+    padding-right: 100px;
+}
+
+.pythonCol{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float:left ;
+    padding-left: 200px;
+}
+
+#javas{
+    max-width: 200px;
+   
+}
+
+.javasCol{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float:right ;
+    padding-left: 200px;
+
+}
+
+
+
 /* HEADER */
   
 /* FOOTER */
-footer{}
+footer{
+    
+}
 /* FOOTER */
 
 /* INICIAL */
@@ -85,8 +170,11 @@ main{}
 /* EXTRAS */
 
 /* para estilizar a scrollbar */
-::-webkit-scrollbar{}
-::-webkit-scrollbar-button{}
+::-webkit-scrollbar{
+
+}
+::-webkit-scrollbar-button{
+}
 ::-webkit-scrollbar-track{}
 ::-webkit-scrollbar-track-piece{}
 ::-webkit-scrollbar-thumb{}
@@ -97,7 +185,9 @@ main{}
   
 
 /* MEDIA QUERIES */
+
+    @media screen and (min-width: 800px) {} 
+
     @media screen and (min-width: 400px) {}
-  
-    @media screen and (min-width: 800px) {}
+   
 /* MEDIA QUERIES */
