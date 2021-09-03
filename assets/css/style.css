@@ -33,6 +33,9 @@ family=Lato -> Títulos, textos
 --cor-header:#00043e;
 --cor-footer:#818181;
 --cor-letras:#FFFFFF;
+--cor-letras2:#303030;
+--cor-botoes:#007aff;
+--cor-flex:#f6f6f6;
 }
   
 /* GERAL */
@@ -208,24 +211,105 @@ figcaption{
     border-width: 1px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     
 }
 
-.calendario li span {
+.calendario-data {
     background-color: var(--cor-header);
     color: var(--cor-letras);
     width: 100%;
-    height: 200px;
+    height: 125px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+.calendario-data-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-style: solid;
+    border-color: var(--cor-footer);
+    border-width: 1px ;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.calendario-data-rodape button{
+    
+    border-radius: 5px;
+    border-style: none;
+    background-color:var(--cor-botoes) ;
+    color: var(--cor-letras);
+    align-items:center ;
+    justify-content: space-around;
+    display: flex;
+    height: 40px;
+    width: 75px;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 350px;
+    background-color: var(--cor-flex);
+}
+
+.flex-col1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col1 form{
+    display: flex;
+}
+
+.form-input-model{
+    display: flex;
+}
+  
+.form-input-model label{
+    display: none;
+}
+
+.form-input-model textarea{
+    width: 450px;
+    display: flex ;
+    height: 150px;
+}
+
+form-input-model input{
+    width: 50%;
+    display: flex;
+}
+#buttom-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75px;
+    height: 40px;
+    
+}
+
+#email{
+    display: flex;
+}
+
 /* HEADER */
   
 /* FOOTER */
 footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 /* FOOTER */
