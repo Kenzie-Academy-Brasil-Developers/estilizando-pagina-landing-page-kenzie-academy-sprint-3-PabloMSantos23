@@ -296,6 +296,62 @@ div.container{
             
         
 }
+.secaoContato{
+    font-size: 15px;
+    font-family: lato;
+}
+  .calendario-data{
+      font-size: 36px;
+      font-family: lato;
+  }
+  .calendario-data h3{
+      font-size: 19px;
+      font-family: lato;
+  }
+  .calendario-data p{
+      font-size: 15px;
+      font-family: lato;
+  }
+  .calendario-data-rodape button{
+      font-size: 32px;
+      font-family: lato;
+  }
+  h2{
+      font-family: montserrat;
+  }
+  nav{
+      font-size: 13px;
+      font-family: lato;
+  }
+  .secaoDestaque h2{
+      font-size: 63px;
+  }
+  .secaoDestaque p{
+      font-size: 21px;
+      font-family: lato;
+  }
+  .secaodestaqueFormulario button{
+      font-size: 14px;
+      font-family: lato;
+  }
+  .secaoSobre h2{
+      font-size: 24px;
+  }
+  .secaoSobre ul{
+      font-size: 19px;
+      font-family: lato;
+  }
+  .secaoCursos h2{
+      font-size: 19px;
+  }
+  .secaoCursos h3{
+      font-size: 19px;
+      font-family: lato;
+  }
+  .secaoCursos p{
+      font-size: 15px;
+      font-family: lato;
+  }
 
 
 
